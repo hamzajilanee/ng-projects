@@ -1,10 +1,14 @@
-.wrap {
-  width: 400px;
-  margin: 40px auto;
+#answer {
+  display: none;
 }
 
-.container {
-  background: #ccc;
+.container-one {
   text-align: center;
-  padding: 20px 0;
+  margin-top: 50px;
+  border: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.container-two {
+  text-align: center;
 }
