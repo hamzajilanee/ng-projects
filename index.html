@@ -7,37 +7,30 @@
     <link href="css/app.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <div class="container-one">
+    <div class="container wrap">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>HFT Mathematic Algorithm</h1>
-          <p class="lead">Enter two numbers - then calculate!<p>
-          <br>
-          <form role="form" id="integerForm">
-          <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-              <div class="form-group">
-                <input type="text" class="form-control input-lg" id="value1" placeholder="Enter an integer">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control input-lg" id="value2" placeholder="Enter an integer">
+        <div class="col-xs-12">
+          <h1>Adder/Subtractor</h1>
+          <form class="form-horizontal" id="integerForm">
+          	<div class="form-group">
+          		<label for="x" class="col-xs-2 col-xs-offset-2 control-label">X = </label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="value1" placeholder="Enter an integer">
               </div>
             </div>
-          </div>
-          <button class="btn btn-default btn-sm btn" id="add-btn">+</button>
-          <button class="btn btn-default btn-sm btn" id="subtract-btn">-</button>
-          <button class="btn btn-default btn-sm btn" id="multiply-btn">*</button>
-          <button class="btn btn-default btn-sm btn" id="divide-btn">\</button><br><br>
-          <button class="btn btn-primary btn-sm btn" id="reset-btn">Reset</button>
+            <div class="form-group">
+            	<label for="y" class="col-xs-2 col-xs-offset-2 control-label">Y = </label>
+              <div class="col-xs-4">
+                <input type="text" class="form-control" id="value2" placeholder="Enter an integer">
+              </div>
+            </div>
+          	<button class="btn btn-default btn-sm btn" id="add-btn">+</button>
+          	<button class="btn btn-default btn-sm btn" id="subtract-btn">-</button>
           </form>
         </div>
-      </div>
-    </div>
-    <div class="container-two">
-      <div class="row">
+
         <div class="col-md-6 col-md-offset-3">
           <br>
-          <hr>
           <h2 id="answer"></h2>
           <div id="alert"></div>
         </div>

@@ -1,14 +1,15 @@
+.wrap {
+  text-align: center;
+}
+
 #answer {
   display: none;
 }
 
-.container-one {
-  text-align: center;
-  margin-top: 50px;
+.wrap {
   border: 1px solid gray;
   padding-bottom: 20px;
-}
-
-.container-two {
-  text-align: center;
+  background: #ccc;
+  position: relative;
+  margin-top: 50px;
 }
