@@ -1,45 +1,43 @@
-$border: 3px solid black;
-
 body {
   background-color: #B7BBBF;
 }
 
 header.container {
   margin-top: 50px;
-  border: $border;
+  border: 3px solid black;
   background-color: white;
   width: 960px;
 }
 
 .logo {
-	padding-left: 130px;
+  padding-left: 130px;
 }
 
 .smile {
-	border-right: $border;
+  border-right: 3px solid black;
   padding: 0 40px;
 }
 
 header h1 {
-	font-size: 8rem;
+  font-size: 8rem;
   margin-top: -40px;
 }
 
 section.container {
-	background-color: white;
-	padding: 30px 50px 60px;
-	border: $border;
-	border-top: none;
-	width: 960px;
+  background-color: white;
+  padding: 30px 50px 60px;
+  border: 3px solid black;
+  border-top: none;
+  width: 960px;
 }
 
 section h2 {
-	padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 section p {
-	font-size: 2em;
-	padding-bottom: 1em;
+  font-size: 2em;
+  padding-bottom: 1em;
 }
 
 .input {
